@@ -22,7 +22,8 @@ class Experience extends React.Component{
                                 <Card.Title><b>Vaco Binary Semantics</b></Card.Title>
                                     <Card.Text>
                                     <ul>
-                                        <li>Undergone trainings in various tools used in web development</li>
+                                        <li>Developed a few web application for various internal process</li>
+                                        <li><b>Tools: </b>Google App Script, HTML, CSS, Javascript, jQuery, Bootstrap</li>
                                     </ul>
                                         
                                     </Card.Text>

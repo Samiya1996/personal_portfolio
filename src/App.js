@@ -42,6 +42,9 @@ function App() {
                         
                     </Nav>
                 </Navbar.Collapse>
+                <div>
+                <a id="myLink" href="https://docs.google.com/document/d/1bh3S46k2sCDEQ7sKDepbJqm8j4M4wKTUG0BmSP3zgRo/edit?usp=sharing" target="_blank">View Resume</a>
+                </div>
         </Navbar>
 
         <div id="home"><Home/></div>
@@ -60,6 +63,14 @@ function App() {
 
           <a class="btn btn-outline-light btn-floating m-1" href="mailto:maitysamiya@gmail.com" role="button">
               <i class="fa fa-envelope"></i></a>
+
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/samiya-maity-194739b8/" role="button">
+              <i class="fab fa-linkedin-in"></i></a>
+
+      
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Samiya1996" role="button">
+              <i class="fab fa-github"></i></a>
+
              
       
             <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/samiya.maity.5/" role="button">
@@ -71,13 +82,7 @@ function App() {
               <i class="fab fa-instagram"></i></a>
 
       
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/samiya-maity-194739b8/" role="button">
-              <i class="fab fa-linkedin-in"></i></a>
-
-      
-            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Samiya1996" role="button">
-              <i class="fab fa-github"></i></a>
-
+            
               
              
           </section>
