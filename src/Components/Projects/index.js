@@ -13,12 +13,11 @@ class Projects extends React.Component{
                     <Row>
                         <Card>
                             <Card.Body>
-                       <b>Random Advice App</b><br></br>
-                       Every time the button is cliked it fetches an advice from Advice Slip API and render in on web App
-                       It was hosted using github pages.
-                       <br></br>
-
-                       <a href="https://samiya1996.github.io/random_advice_app/">See The Demo</a>
+                       <b>Get Advice</b><br/>
+                       A fun web app to find random and humorous advices.<br/>
+                       Advice Slip API has been used to fecth a advice. Every time the button is clicked it fetches an advice and show it on screen. 
+                        <br/>
+                       <a href="https://samiya1996.github.io/random_advice_app/" target="_blank">See The Demo</a>
                        <br/>
                        <a href="https://github.com/Samiya1996/random_advice_app">Find Code here</a>
                        </Card.Body>
@@ -28,23 +27,14 @@ class Projects extends React.Component{
                     <Row>
                         <Card>
                             <Card.Body>
-                       <b>E-commerce Website</b><br/>
-                        Building a online shopping application<br/>
-                        Work in progress...
+                       <b>Crypto Mars</b><br/>
+                        A web app for latest information about cryptocurrencies<br/>
+                        Used Coinranking API to get the information of various cryptocurrencies 
+                        and Bing News Search API to fetch the latest news about different coins. 
                         <br/>
-                        <a href="https://github.com/Samiya1996/reine_roi">Find Code here</a>
-                       </Card.Body>
-                       </Card>
-                    </Row>
-                    <br/>
-                    <Row>
-                        <Card>
-                            <Card.Body>
-                       <b>Blogging Website</b><br/>
-                        Building a online Blogging Website<br/> 
-                        Work in progress...
-                        <br/>
-                        <a href="https://github.com/Samiya1996/blog_my_blog">Find Code here</a>
+                       <a href="https://tangerine-biscuit-e99d5f.netlify.app/" target="_blank">See The Demo</a>
+                       <br/>
+                        <a href="https://github.com/Samiya1996/Crypto_app">Find Code here</a>
                        </Card.Body>
                        </Card>
                     </Row>
@@ -64,8 +54,31 @@ class Projects extends React.Component{
                        </Card.Body>
                        </Card>
                     </Row> 
-       
-
+                    <br/>
+                    <Row>
+                        <Card>
+                            <Card.Body>
+                       <b>E-commerce Website</b><br/>
+                        Building a online shopping application<br/>
+                        Work in progress...
+                        <br/>
+                        <a href="https://github.com/Samiya1996/reine_roi">Find Code here</a>
+                       </Card.Body>
+                       </Card>
+                    </Row>
+                    <br/>
+                    {/* <Row>
+                        <Card>
+                            <Card.Body>
+                       <b>Blogging Website</b><br/>
+                        Building a online Blogging Website<br/> 
+                        Work in progress...
+                        <br/>
+                        <a href="https://github.com/Samiya1996/blog_my_blog">Find Code here</a>
+                       </Card.Body>
+                       </Card>
+                    </Row> 
+                    <br/> */}
                 </Container>
             </div>
         );
