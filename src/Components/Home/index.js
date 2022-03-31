@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import bgImg from './bg_img.JPG';
+
 import dp from './dp_samiya.jpg';
 import './index.css';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
@@ -16,7 +17,7 @@ class Home extends React.Component{
                 <div className="bgImg">
                 
 
-                    <div className="introText">
+                    <div className="introText" >
                         <h2>"Hello World!!!"</h2><br/>
                         <h2>I'm Samiya</h2> 
                         <h4> Technophile | Bibliophile | Curious</h4>
